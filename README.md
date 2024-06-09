@@ -18,14 +18,13 @@ API Restful que permite a gestão de marcas e modelos de carros de forma simples
 #### Passo 1 - Clone o projeto
 
 ```shell
-cd \
 git clone https://github.com/lucasdanilo1/caseplace-api.git
 ```
 
 #### Passo 2 - Acesse a pasta do projeto
 
 ```shell
-cd desafio-place
+cd caseplace-api
 ```
 
 #### Passo 3 - Execute o docker-compose
