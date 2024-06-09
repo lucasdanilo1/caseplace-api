@@ -1,0 +1,15 @@
+CREATE TABLE marca (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cod_denatran INT NOT NULL,
+    ativo BOOLEAN NOT NULL
+);
+
+CREATE TABLE modelo (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    ano INT NOT NULL,
+    ativo BOOLEAN NOT NULL,
+    marca_id BIGINT,
+    FOREIGN KEY (marca_id) REFERENCES marca(id) ON DELETE CASCADE
+);
