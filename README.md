@@ -19,7 +19,7 @@ API Restful que permite a gestão de marcas e modelos de carros de forma simples
 
 ```shell
 cd \
-git clone https://github.com/lucasdanilo1/desafio-place
+git clone https://github.com/lucasdanilo1/caseplace-api.git
 ```
 
 #### Passo 2 - Acesse a pasta do projeto
